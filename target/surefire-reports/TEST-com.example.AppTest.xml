@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.example.AppTest" time="0.024" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.example.AppTest" time="0.068" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\acer\Documents\maven\JavaPipeline\target\test-classes;C:\Users\acer\Documents\maven\JavaPipeline\target\classes;C:\Users\acer\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="java.class.path" value="C:\Users\acer\Documents\maven\JavaPipeline\target\test-classes;C:\Users\acer\Documents\maven\JavaPipeline\target\classes;C:\Users\acer\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\acer\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.11.10-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\acer\AppData\Local\Temp\surefire16537373993242458224\surefirebooter-20261028171917047_3.jar C:\Users\acer\AppData\Local\Temp\surefire16537373993242458224 2026-10-28T17-19-16_807-jvmRun1 surefire-20261028171917047_1tmp surefire_0-20261028171917047_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\acer\AppData\Local\Temp\surefire10858086455596868142\surefirebooter-20261029001417193_3.jar C:\Users\acer\AppData\Local\Temp\surefire10858086455596868142 2026-10-29T00-14-17_025-jvmRun1 surefire-20261029001417193_1tmp surefire_0-20261029001417193_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\acer\Documents\maven\JavaPipeline\target\test-classes;C:\Users\acer\Documents\maven\JavaPipeline\target\classes;C:\Users\acer\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\acer\Documents\maven\JavaPipeline\target\test-classes;C:\Users\acer\Documents\maven\JavaPipeline\target\classes;C:\Users\acer\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\acer\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\acer"/>
     <property name="user.language" value="en"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\acer\AppData\Local\Temp\surefire16537373993242458224\surefirebooter-20261028171917047_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\acer\AppData\Local\Temp\surefire10858086455596868142\surefirebooter-20261029001417193_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.11+10-LTS"/>
@@ -59,5 +59,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testApp" classname="com.example.AppTest" time="0.005"/>
+  <testcase name="testApp" classname="com.example.AppTest" time="0.008"/>
 </testsuite>
